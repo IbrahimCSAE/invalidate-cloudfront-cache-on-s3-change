@@ -7,7 +7,7 @@
 
 
 • Go to Code Pipeline, add stage, add action, select action provider as invoke AWS Lambda, select the lambda function. </br>
-• edit the IAM role for the lambda function to allow it to interact with CloudFront and Code Pipeline </br>
+• Edit the IAM role for the lambda function to allow it to interact with CloudFront and Code Pipeline </br>
 • All done! </br>
 
 
