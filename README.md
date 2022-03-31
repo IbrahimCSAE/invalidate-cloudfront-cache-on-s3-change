@@ -6,8 +6,8 @@
 # Steps
 
 
-• set S3 objectcreated events as a trigger to the Lambda function
-• edit the IAM role for the lambda function to allow it to interact with CloudFront
+• set S3 objectcreated events as a trigger to the Lambda function </br>
+• edit the IAM role for the lambda function to allow it to interact with CloudFront </br>
 
 
 
