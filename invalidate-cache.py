@@ -6,7 +6,7 @@ import time
 def lambda_handler(event, context):
     path = ["/"]
     client = boto3.client('cloudfront')
-    invalidation = client.create_invalidation(DistributionId='E33J1W1JUL5EDB',
+    invalidation = client.create_invalidation(DistributionId='Your-Own-CloudFront-Distribution-ID',
         InvalidationBatch={
             'Paths': {
                 'Quantity': 1,
