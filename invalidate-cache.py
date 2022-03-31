@@ -9,7 +9,7 @@ import logging
 def lambda_handler(event, context):
     path = ["/*"]
     client = boto3.client('cloudfront')
-    invalidation = client.create_invalidation(DistributionId='E33J1W1JUL5EDB',
+    invalidation = client.create_invalidation(DistributionId='Your Own CloudFront DistributionId',
         InvalidationBatch={
             'Paths': {
                 'Quantity': 1,
